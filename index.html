@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="fixed-nav">
+        <div class="company"><img src="./img/logo.png" class="logo" /> Dashboard</div>
+        
+        <ul class="primary-nav">
+            <li><a href="#"><img src="./img/nav-home.png">Home</a></li>
+            <li><a href="#"><img src="./img/nav-profile.png">Profile</a></li>
+            <li><a href="#"><img src="./img/nav-messages.png">Messages</a></li>
+            <li><a href="#"><img src="./img/nav-history.png">History</a></li>
+            <li><a href="#"><img src="./img/nav-tasks.png">Tasks</a></li>
+            <li><a href="#"><img src="./img/nav-communities.png">Communities</a></li>
+        </ul>
+
+        <ul class="secondary-nav">
+            <li><a href="#"><img src="./img/nav-settings.png">Settings</a></li>
+            <li><a href="#"><img src="./img/nav-support.png">Support</a></li>
+            <li><a href="#"><img src="./img/nav-privacy.png">Privacy</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="header">
+
+            <div class="search">
+                <img class="search-icon" src="./img/search.png">
+                <div class="search-bar">
+                    <input type="text" name="search" id="search">
+                </div>
+            </div>
+
+            <div class="user-area">
+                <img class="notifications" src="./img/notifications.png">
+                <img class="avatar" src="./img/avatar.jpg">
+                <p>Bob Dole</p>
+            </div>
+
+            <div class="user-welcome">
+                <div class="ava-display">
+                    <img class="avatar" src="./img/avatar.jpg">
+                </div>
+                <div class="welcome-msg">
+                    <p>Hi there,</p>
+                    <p class="name">Bob Dole (@bdole)</p>
+                </div>
+                
+            </div>
+
+            <div class="actions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+
+        </div>
+        <div class="dashboard">
+            <h2 class="projects">Projects</h2>
+            <h2 class="announcements">Announcements</h2>
+
+            <div class="project-list">
+                <div class="project">
+                    <h3>Calculator</h3>
+                    <p>A functional calculator with basic math functionality, screen clearing, decimal support and operation chaining.</p>
+                    <div class="project-actions">
+                        <img src="./img/project-star.png">
+                        <img src="./img/project-watch.png">
+                        <img src="./img/project-fork.png">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>etch-a-sketch</h3>
+                    <p>A functional etch-a-sketch with custom grid size generation, rainbow drawing, resetting and eraser.</p>
+                    <div class="project-actions">
+                        <img src="./img/project-star.png">
+                        <img src="./img/project-watch.png">
+                        <img src="./img/project-fork.png">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>rps-game</h3>
+                    <p>A functional rock, paper, scissors game with a computer using random choice to play against.</p>
+                    <div class="project-actions">
+                        <img src="./img/project-star.png">
+                        <img src="./img/project-watch.png">
+                        <img src="./img/project-fork.png">
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="announcement-list">
+                <div class="announcements-list">
+                    <ul>
+                        <li>
+                            <h3>Dummy Text</h3>
+                            <p>Nothing but some dummy text for a fake announcement.</p>
+                        </li>
+                        <li>
+                            <h3>Dummy Text</h3>
+                            <p>Nothing but some dummy text for a fake announcement.</p>
+                        </li>
+                        <li>
+                            <h3>Dummy Text</h3>
+                            <p>Nothing but some dummy text for a fake announcement.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
